@@ -4,18 +4,17 @@ AI와 과학기술정책을 연구합니다. 제안서·정책연구보고서·�
 
 *I research AI and science & technology policy. I publish the Claude Code tools I built while writing proposals, policy reports, papers and lecture decks — all designed for Korean documents and HWPX output.*
 
-## 문서 작성 에이전트 팀
+## 멀티에이전트 하네스
 
-설계 검토와 초안 검수를 거쳐야 다음 단계로 넘어가는 팀 구성입니다.
+역할을 나눈 서브에이전트가 설계 검토와 초안 검수 게이트를 통과해야 다음 단계로 넘어가는 Claude Code 플러그인입니다.
 
 | 저장소 | 만드는 것 |
 |---|---|
-| rnd-proposal-kit (비공개) | 정부 R&D 제안서 초안 (.hwpx) |
 | [policy-research-kit](https://github.com/parkjui92/policy-research-kit) | 정책연구보고서·정책브리프 (.hwpx) |
 | [socsci-paper-kit](https://github.com/parkjui92/socsci-paper-kit) | 사회과학 논문, 심사의견 대응 (.docx) |
-| [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit) | HTML 강의자료, 브라우저에서 드래그해 바로 수정 |
+| rnd-proposal-kit (비공개) | 정부 R&D 제안서 초안 (.hwpx) |
 
-## 단일 스킬
+## 에이전트 스킬
 
 | 저장소 | 하는 일 |
 |---|---|
@@ -25,6 +24,7 @@ AI와 과학기술정책을 연구합니다. 제안서·정책연구보고서·�
 | [paper-proofread](https://github.com/parkjui92/paper-proofread) | 한국어 학술논문 교정교열 |
 | [form-tailor](https://github.com/parkjui92/form-tailor) | 기관 양식 샘플대로 새 문서 작성 |
 | [doc-figure](https://github.com/parkjui92/doc-figure) | 문서용 삽도, 한글이 깨지지 않는 코드 렌더 |
+| [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit) | HTML 강의자료, 브라우저에서 드래그해 바로 수정 |
 
 ## 도구와 데이터
 
