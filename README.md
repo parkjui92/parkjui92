@@ -6,24 +6,36 @@
 
 <img src="assets/flow.png" width="100%" alt="연구 단계마다 쓰는 도구. 자료 찾기(prism-db, korea-cabinet-stp, awesome-research-stages) → 설계 검토 → 집필(policy-research-kit, socsci-paper-kit, report-to-brief) → 초안 검수 → 검증·교정(fact-verify, paper-proofread, report-rules) → 양식·그림(form-tailor, doc-figure) → 공유·강의(deident, lecture-deck-kit)">
 
-## 이런 일을 맡길 때
+## 멀티에이전트 하네스
 
-| 맡길 일 | 넣는 것 | 받는 것 | 저장소 | 형태 |
-|---|---|---|---|---|
-| 정책연구보고서·정책브리프 | 주제·메모·기존 자료 | 검수를 거친 한글(.hwpx) 보고서 | [policy-research-kit](https://github.com/parkjui92/policy-research-kit) | 멀티에이전트 하네스 |
-| 사회과학 논문·심사의견 대응 | 연구 주제·데이터·선행연구 | 논문 원고(.docx)·답변서 | [socsci-paper-kit](https://github.com/parkjui92/socsci-paper-kit) | 멀티에이전트 하네스 |
-| 정부 R&D 제안서 | 공고문·메모 | 제안서 초안(.hwpx) | rnd-proposal-kit (비공개) | 멀티에이전트 하네스 |
-| 출처 확인 | 조사 결과·초안 | 주장별 판정표와 재조사 요청 | [fact-verify](https://github.com/parkjui92/fact-verify) | 에이전트 스킬 |
-| 원고 교정 | .docx·.pdf·.md·.hwp 원고 | 교정교열표·수정 원고 | [paper-proofread](https://github.com/parkjui92/paper-proofread) | 에이전트 스킬 |
-| 보고서 규칙 점검 | 보고서·브리프·의견서 초안 | 위반 위치와 수정안 | [report-rules](https://github.com/parkjui92/report-rules) | 에이전트 스킬 |
-| 긴 보고서 압축 | 보고서 | 1~8쪽 브리프 | [report-to-brief](https://github.com/parkjui92/report-to-brief) | 에이전트 스킬 |
-| 기관 양식 맞추기 | 양식 샘플(HWP·HWPX·DOCX)과 내용 | 같은 틀의 새 문서 | [form-tailor](https://github.com/parkjui92/form-tailor) | 에이전트 스킬 |
-| 문서용 그림 | 본문이나 말로 한 설명 | 한글이 깨지지 않는 도식 | [doc-figure](https://github.com/parkjui92/doc-figure) | 에이전트 스킬 |
-| 강의자료 | 주제·자료 | HTML 슬라이드, 브라우저에서 바로 수정 | [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit) | 에이전트 스킬 |
-| 민감정보 지우기 | hwpx·hwp·docx·xlsx·pptx·pdf | 비식별 사본(전 과정 로컬) | [deident](https://github.com/parkjui92/deident) | CLI |
-| 정책연구용역 찾기 | 검색어 | PRISM 과제 로컬 전문검색 | [prism-db](https://github.com/parkjui92/prism-db) | CLI·데이터 |
-| 국무회의 안건 | 기간·부처·주제 | 2018~2026 안건 아카이브 | [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp) | 데이터 |
-| 연구 단계별 도구 찾기 | 연구 단계 | 오픈소스 도구 목록 | [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages) | 목록 |
+역할을 나눈 서브에이전트가 설계 검토와 초안 검수 게이트를 통과해야 다음 단계로 넘어가는 Claude Code 플러그인입니다.
+
+| 저장소 | 만드는 것 |
+|---|---|
+| [policy-research-kit](https://github.com/parkjui92/policy-research-kit) | 정책연구보고서·정책브리프 (.hwpx) |
+| [socsci-paper-kit](https://github.com/parkjui92/socsci-paper-kit) | 사회과학 논문, 심사의견 대응 (.docx) |
+| rnd-proposal-kit (비공개) | 정부 R&D 제안서 초안 (.hwpx) |
+
+## 에이전트 스킬
+
+| 저장소 | 하는 일 |
+|---|---|
+| [fact-verify](https://github.com/parkjui92/fact-verify) | 출처가 진짜인지 확인, 발췌를 원문과 기계 대조 |
+| [paper-proofread](https://github.com/parkjui92/paper-proofread) | 한국어 학술논문 교정교열 |
+| [report-rules](https://github.com/parkjui92/report-rules) | 보고서 작성 규칙과 초안 점검기 |
+| [report-to-brief](https://github.com/parkjui92/report-to-brief) | 긴 보고서를 1~8쪽 브리프로 압축 |
+| [form-tailor](https://github.com/parkjui92/form-tailor) | 기관 양식 샘플대로 새 문서 작성 |
+| [doc-figure](https://github.com/parkjui92/doc-figure) | 문서용 삽도, 한글이 깨지지 않는 코드 렌더 |
+| [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit) | HTML 강의자료, 브라우저에서 드래그해 바로 수정 |
+
+## 도구와 데이터
+
+| 저장소 | 하는 일 |
+|---|---|
+| [deident](https://github.com/parkjui92/deident) | 문서 민감정보 비식별화, 전 과정 로컬 |
+| [prism-db](https://github.com/parkjui92/prism-db) | 정책연구용역(PRISM) 로컬 검색 CLI |
+| [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp) | 국무회의 안건 아카이브 (2018~2026) |
+| [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages) | 연구 단계별 오픈소스 도구 목록 |
 
 ## 실측으로 확인한 것
 
