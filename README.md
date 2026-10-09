@@ -1,8 +1,8 @@
 # 박주이 · Jui Park
 
-데이터와 AI로 과학기술정책을 연구합니다. 한양대학교 과학기술정책연구소와 정책한걸음에서 활동하고 있습니다.
+데이터와 AI로 과학기술정책을 연구합니다. 한양대학교 과학기술정책연구소와 정책한걸음에서 활동하고 있습니다. 연구하며 만든 Claude Code 도구를 이곳에 공개합니다.
 
-연구하며 만든 Claude Code 도구를 이곳에 공개합니다.
+*I research science and technology policy with data and AI, working with the Science and Technology Policy Institute at Hanyang University and 정책한걸음 (The Step in Public Policy). This is where I share the Claude Code tools I built along the way.*
 
 <img src="assets/flow.png" width="100%" alt="연구 단계마다 쓰는 도구. 자료 찾기(prism-db, korea-cabinet-stp, awesome-research-stages) → 설계 검토 → 집필(policy-research-kit, socsci-paper-kit, report-to-brief) → 초안 검수 → 검증·교정(fact-verify, paper-proofread, report-rules) → 양식·그림(form-tailor, doc-figure) → 공유·강의(deident, lecture-deck-kit)">
 
@@ -62,8 +62,6 @@ Claude Code를 다시 켜고 "이 문단 교정해줘"라고 하면 됩니다. �
 
 <details>
 <summary>English</summary>
-
-I research science & technology policy through data and AI, working with the Science and Technology Policy Institute at Hanyang University and 정책한걸음 (The Step in Public Policy). These are the Claude Code tools I built along the way.
 
 - **Multi-agent harnesses** — [policy-research-kit](https://github.com/parkjui92/policy-research-kit) (policy reports and briefs), [socsci-paper-kit](https://github.com/parkjui92/socsci-paper-kit) (social science papers and reviewer responses). Role-split subagents must pass a design review and a draft review before moving on.
 - **Agent skills** — [fact-verify](https://github.com/parkjui92/fact-verify) (source verification with a claim–evidence ledger), [paper-proofread](https://github.com/parkjui92/paper-proofread) (Korean academic proofreading), [report-rules](https://github.com/parkjui92/report-rules), [report-to-brief](https://github.com/parkjui92/report-to-brief), [form-tailor](https://github.com/parkjui92/form-tailor), [doc-figure](https://github.com/parkjui92/doc-figure), [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit)
