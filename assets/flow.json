@@ -1,0 +1,48 @@
+{
+ "template": "flow-process",
+ "intent": {
+  "message": "연구 단계마다 어떤 공개 도구를 쓰면 되는지, 그리고 검증 단계가 흐름 한가운데 있다는 것",
+  "relation": "순서·절차",
+  "why": "단계가 왼쪽에서 오른쪽으로 흐르고, 도구가 각 단계 아래에 붙어 위치를 바로 찾는다"
+ },
+ "title": "연구 단계마다 쓰는 도구",
+ "subtitle": "검증·교정을 흐름 한가운데에 둡니다",
+ "steps": [
+  {
+   "num": "1",
+   "title": "자료 찾기",
+   "desc": "prism-db\nkorea-cabinet-stp\nawesome-research-stages"
+  },
+  {
+   "num": "2",
+   "title": "집필",
+   "desc": "policy-research-kit\nsocsci-paper-kit\nreport-to-brief"
+  },
+  {
+   "num": "3",
+   "title": "검증·교정",
+   "desc": "fact-verify\npaper-proofread\nreport-rules",
+   "highlight": true
+  },
+  {
+   "num": "4",
+   "title": "양식·그림",
+   "desc": "form-tailor\ndoc-figure"
+  },
+  {
+   "num": "5",
+   "title": "공유·강의",
+   "desc": "deident\nlecture-deck-kit"
+  }
+ ],
+ "gates": [
+  {
+   "after": 1,
+   "label": "설계 검토"
+  },
+  {
+   "after": 2,
+   "label": "초안 검수"
+  }
+ ]
+}
