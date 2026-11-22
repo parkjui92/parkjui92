@@ -27,6 +27,7 @@
 | [form-tailor](https://github.com/parkjui92/form-tailor) | 기관 양식 샘플대로 새 문서 작성 |
 | [doc-figure](https://github.com/parkjui92/doc-figure) | 문서용 삽도, 한글이 깨지지 않는 코드 렌더 |
 | [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit) | HTML 강의자료, 브라우저에서 드래그해 바로 수정 |
+| [rnd-eval-skills](https://github.com/parkjui92/rnd-eval-skills) | 정부 R&D 사업 평가 — 사업 논리·성과지표·예산 추이·유사중복·성과 주장 점검, 평가보고서 골격 |
 
 ## 도구와 데이터
 
@@ -63,7 +64,7 @@ Claude Code를 다시 켜고 "이 문단 교정해줘"라고 하면 됩니다. �
 <summary>English</summary>
 
 - **Multi-agent harnesses** — [policy-research-kit](https://github.com/parkjui92/policy-research-kit) (policy reports and briefs), [socsci-paper-kit](https://github.com/parkjui92/socsci-paper-kit) (social science papers and reviewer responses). Role-split subagents must pass a design review and a draft review before moving on.
-- **Agent skills** — [fact-verify](https://github.com/parkjui92/fact-verify) (source verification with a claim–evidence ledger), [paper-proofread](https://github.com/parkjui92/paper-proofread) (Korean proofreading for papers, reports and government documents, with in-place .hwpx revisions), [report-rules](https://github.com/parkjui92/report-rules), [report-to-brief](https://github.com/parkjui92/report-to-brief), [form-tailor](https://github.com/parkjui92/form-tailor), [doc-figure](https://github.com/parkjui92/doc-figure), [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit)
+- **Agent skills** — [fact-verify](https://github.com/parkjui92/fact-verify) (source verification with a claim–evidence ledger), [paper-proofread](https://github.com/parkjui92/paper-proofread) (Korean proofreading for papers, reports and government documents, with in-place .hwpx revisions), [report-rules](https://github.com/parkjui92/report-rules), [report-to-brief](https://github.com/parkjui92/report-to-brief), [form-tailor](https://github.com/parkjui92/form-tailor), [doc-figure](https://github.com/parkjui92/doc-figure), [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit), [rnd-eval-skills](https://github.com/parkjui92/rnd-eval-skills) (Korean government R&D program evaluation checks)
 - **CLI and data** — [deident](https://github.com/parkjui92/deident) (local de-identification of Korean documents), [prism-db](https://github.com/parkjui92/prism-db), [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp), [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages), [deep-research-kit](https://github.com/parkjui92/deep-research-kit) (literature comparison tables checked against source sentences), [kr-sti-data](https://github.com/parkjui92/kr-sti-data) (Korean S&T statistics collector), [kr-grant-trace](https://github.com/parkjui92/kr-grant-trace) (grant numbers to publications), [rnd-program-logic](https://github.com/parkjui92/rnd-program-logic) (logic-model and indicator design checker), [policy-did](https://github.com/parkjui92/policy-did) (design and identification checks before causal estimates), [won-diff](https://github.com/parkjui92/won-diff) (budget table comparison)
 
 Questions and bug reports go to each repository's Issues.
