@@ -21,7 +21,7 @@
 | 저장소 | 하는 일 |
 |---|---|
 | [fact-verify](https://github.com/parkjui92/fact-verify) | 출처가 진짜인지 확인, 발췌를 원문과 기계 대조 |
-| [paper-proofread](https://github.com/parkjui92/paper-proofread) | 한국어 학술논문 교정교열 |
+| [paper-proofread](https://github.com/parkjui92/paper-proofread) | 한국어 원고 교정교열 (논문·보고서·공문서), 한글 파일은 원본에 바로 반영 |
 | [report-rules](https://github.com/parkjui92/report-rules) | 보고서 작성 규칙과 초안 점검기 |
 | [report-to-brief](https://github.com/parkjui92/report-to-brief) | 긴 보고서를 1~8쪽 브리프로 압축 |
 | [form-tailor](https://github.com/parkjui92/form-tailor) | 기관 양식 샘플대로 새 문서 작성 |
@@ -36,6 +36,12 @@
 | [prism-db](https://github.com/parkjui92/prism-db) | 정책연구용역(PRISM) 로컬 검색 CLI |
 | [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp) | 국무회의 안건 아카이브 (2018~2026) |
 | [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages) | 연구 단계별 오픈소스 도구 목록 |
+| [deep-research-kit](https://github.com/parkjui92/deep-research-kit) | 여러 논문을 질문에 맞는 비교표로, 값마다 원문 문장으로 확인 |
+| [kr-sti-data](https://github.com/parkjui92/kr-sti-data) | 과학기술·R&D 통계 수집기 (KOSIS·NABOSTATS·NTIS) |
+| [kr-grant-trace](https://github.com/parkjui92/kr-grant-trace) | 정부 R&D 과제번호로 사사 논문 추적 |
+| [rnd-program-logic](https://github.com/parkjui92/rnd-program-logic) | 정부 R&D 사업 논리모형·성과지표 설계 점검기 |
+| [policy-did](https://github.com/parkjui92/policy-did) | 정책평가 인과추론 작업대, 추정 전에 설계서와 식별 가정 점검 |
+| [won-diff](https://github.com/parkjui92/won-diff) | 예산표 단위 맞춤과 금액 변경 검토 |
 
 ## 처음이라면
 
@@ -57,8 +63,8 @@ Claude Code를 다시 켜고 "이 문단 교정해줘"라고 하면 됩니다. �
 <summary>English</summary>
 
 - **Multi-agent harnesses** — [policy-research-kit](https://github.com/parkjui92/policy-research-kit) (policy reports and briefs), [socsci-paper-kit](https://github.com/parkjui92/socsci-paper-kit) (social science papers and reviewer responses). Role-split subagents must pass a design review and a draft review before moving on.
-- **Agent skills** — [fact-verify](https://github.com/parkjui92/fact-verify) (source verification with a claim–evidence ledger), [paper-proofread](https://github.com/parkjui92/paper-proofread) (Korean academic proofreading), [report-rules](https://github.com/parkjui92/report-rules), [report-to-brief](https://github.com/parkjui92/report-to-brief), [form-tailor](https://github.com/parkjui92/form-tailor), [doc-figure](https://github.com/parkjui92/doc-figure), [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit)
-- **CLI and data** — [deident](https://github.com/parkjui92/deident) (local de-identification of Korean documents), [prism-db](https://github.com/parkjui92/prism-db), [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp), [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages)
+- **Agent skills** — [fact-verify](https://github.com/parkjui92/fact-verify) (source verification with a claim–evidence ledger), [paper-proofread](https://github.com/parkjui92/paper-proofread) (Korean proofreading for papers, reports and government documents, with in-place .hwpx revisions), [report-rules](https://github.com/parkjui92/report-rules), [report-to-brief](https://github.com/parkjui92/report-to-brief), [form-tailor](https://github.com/parkjui92/form-tailor), [doc-figure](https://github.com/parkjui92/doc-figure), [lecture-deck-kit](https://github.com/parkjui92/lecture-deck-kit)
+- **CLI and data** — [deident](https://github.com/parkjui92/deident) (local de-identification of Korean documents), [prism-db](https://github.com/parkjui92/prism-db), [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp), [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages), [deep-research-kit](https://github.com/parkjui92/deep-research-kit) (literature comparison tables checked against source sentences), [kr-sti-data](https://github.com/parkjui92/kr-sti-data) (Korean S&T statistics collector), [kr-grant-trace](https://github.com/parkjui92/kr-grant-trace) (grant numbers to publications), [rnd-program-logic](https://github.com/parkjui92/rnd-program-logic) (logic-model and indicator design checker), [policy-did](https://github.com/parkjui92/policy-did) (design and identification checks before causal estimates), [won-diff](https://github.com/parkjui92/won-diff) (budget table comparison)
 
 Questions and bug reports go to each repository's Issues.
 
