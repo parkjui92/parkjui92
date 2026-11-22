@@ -37,13 +37,6 @@
 | [korea-cabinet-stp](https://github.com/parkjui92/korea-cabinet-stp) | 국무회의 안건 아카이브 (2018~2026) |
 | [awesome-research-stages](https://github.com/parkjui92/awesome-research-stages) | 연구 단계별 오픈소스 도구 목록 |
 
-## 실측으로 확인한 것
-
-- 같은 주제를 일반 Claude Code와 policy-research-kit에 각각 맡기고, 양쪽이 인용한 링크(일반 10개, 플러그인 4개)를 전부 열어 원문과 대조했습니다. 수치·귀속 오류는 일반 쪽 2건(연도 혼입 1건 별도), 플러그인 쪽 0건이었습니다. → [비교 실험 기록](https://github.com/parkjui92/policy-research-kit/blob/main/docs/vanilla-vs-kit.md)
-- fact-verify는 실제로 돌린 검증 보고서 65건을 다시 읽어 판정 규칙을 고쳤습니다. 가장 많던 오류는 지어낸 문헌이 아니라 맞는 출처에 붙은 틀린 꼬리표였습니다. → [변경 기록](https://github.com/parkjui92/fact-verify/blob/main/CHANGELOG.md)
-- prism-db는 정책연구용역 74,129건을 모읍니다. 연도별로 나눠 받으면 26%가 조용히 빠진다는 것을 실측으로 찾아 수집 방식을 바꿨습니다. → [README](https://github.com/parkjui92/prism-db#readme)
-- korea-cabinet-stp는 2018년 9월부터 2026년 7월까지 국무회의 447회, 안건 16,742건을 공식 의사일정 원문에서 추출했습니다. → [README](https://github.com/parkjui92/korea-cabinet-stp#readme)
-
 ## 처음이라면
 
 가장 가벼운 것은 paper-proofread입니다.
